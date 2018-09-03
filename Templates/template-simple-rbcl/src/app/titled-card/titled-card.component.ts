@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { CardModel } from "../models/cardModel";
 
 @Component({
   selector: 'app-titled-card',
@@ -6,11 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./titled-card.component.css']
 })
 export class TitledCardComponent implements OnInit {
-  private title: string;
-  private data:
-  constructor() { }
+  
+  @Input() 
+  cardModel: CardModel;
+  
+  constructor() { 
+    
+  }
 
   ngOnInit() {
+    console.log("card init: " + this.cardModel.title + " "+ this.cardModel.cardHtml);
   }
 
 }

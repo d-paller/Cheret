@@ -7,12 +7,16 @@ import { NavbarComponent } from './navbar/navbar.component';
 // Bootstrap stuff
 import { CollapseModule } from 'ngx-bootstrap';
 import { TitledCardComponent } from './titled-card/titled-card.component';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    TitledCardComponent
+    TitledCardComponent,
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
