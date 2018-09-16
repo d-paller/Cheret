@@ -26,7 +26,8 @@ There will be a tempalte skelleton provided.
 
 ## Creating a Template
 ### Color Schemes
-*The color schemes will be based on the [Material Design pattern](https://material.io/design/color/the-color-system.html#color-theme-creation)*
+*The color schemes will be based on the [Material Design pattern](https://material.io/design/color/the-color-system.html#color-theme-creation)*.
+
 Four colors are required: **Primary, Secondary, Surface, and Background** and each will have a "on color" ascociated with it (the color of the text on the color).  Since this is based off of Material Design, which relies heavily on cards, these colors don't necessarily have to be used in the intended way.  Since the color values will be dropped in, you can use these in whatever way seems best to you and the template you are making.
 
 You will have the option to let the user choose these four colors, some of the colors, or non at all.  It is recommmended that you allow the user to choose the colors, however there can be cases where the colors shouldn't change.
