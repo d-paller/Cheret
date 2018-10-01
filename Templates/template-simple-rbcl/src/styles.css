@@ -3,3 +3,12 @@
 body {
      background: #18121E !important;
 }
+
+.page-content{
+     background: #233237;
+     color: #ffffff;
+     padding: 25px;
+     border-radius: 5px;
+     border: 1px solid #984B43;
+     margin-top: 25px;
+}
