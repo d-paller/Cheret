@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Templates",
+    "\\Templates\\basic-material",
+    "\\Templates\\basic-material\\basic-material",
+    "\\Templates\\basic-material\\basic-material\\src",
+    "\\Templates\\basic-material\\basic-material\\src\\app",
+    "\\Templates\\basic-material\\basic-material\\src\\app\\home"
   ],
+  "SelectedNode": "\\Templates\\basic-material\\basic-material\\src",
   "PreviewInSolutionExplorer": false
 }

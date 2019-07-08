@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cheret.Data", "Cheret.Data\Cheret.Data.csproj", "{87210463-0158-4A72-B4EF-B4D23EF56EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87210463-0158-4A72-B4EF-B4D23EF56EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87210463-0158-4A72-B4EF-B4D23EF56EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87210463-0158-4A72-B4EF-B4D23EF56EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87210463-0158-4A72-B4EF-B4D23EF56EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F677353E-B8A6-4B37-9758-4493722F4AB2}
+	EndGlobalSection
+EndGlobal
