@@ -10,6 +10,7 @@ body{
 
 footer{
      border-top: 1px black solid;
+     background-color: white;
      padding: 2%; 
      display:flex;
      flex-wrap: wrap;
@@ -24,9 +25,16 @@ footer{
      width: 25%;
 }
 
-.footer-card > mat-card-header > .mat-card-header-text {
+.mat-card > mat-card-header > .mat-card-header-text {
      margin: 0px;
      border-bottom: 1px lightgray solid;
      width: 100%;
      margin-bottom: 10px;
+}
+
+.app-container {
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 1%;
+     
 }

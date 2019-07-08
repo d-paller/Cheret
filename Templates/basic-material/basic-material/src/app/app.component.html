@@ -1,5 +1,5 @@
 <mat-toolbar>
-  <button mat-button [matMenuTriggerFor]="about">About</button>
+  <button mat-button [matMenuTriggerFor]="menu">About<mat-icon>arrow_drop_down</mat-icon></button>
   <button mat-button>Services</button>
   <button mat-button>Sermons</button>
   <button mat-button>Ministries</button>
@@ -9,19 +9,20 @@
   <span class="spacer"></span>
   <button mat-button>Members <mat-icon>person</mat-icon></button>
 </mat-toolbar>
-<mat-menu #about="matMenu">
-  <button mat-button>Beliefs</button>
-  <button mat-button>Covenant Responsibilities</button>
-  <button mat-button>Leadership</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Beliefs</button>
+  <button mat-menu-item>Covenant Responsibilities</button>
+  <button mat-menu-item>Leadership</button>
 </mat-menu>
 
-<router-outlet></router-outlet>
-
+<div class="app-container">
+  <router-outlet></router-outlet>
+</div>
 <footer>
   <mat-card class="footer-card">
     <mat-card-header>
       <mat-card-title>Reformed Baptists</mat-card-title>
-    </mat-card-header>  
+    </mat-card-header>
     <mat-card-content>
       <p>
         Read what defines our church as a historically Reformed Baptist church.
@@ -38,8 +39,8 @@
     </mat-card-header>
     <mat-card-content>
       <p>
-          We meet Sundays at 9:30, 11, and 6.<br/>
-          Prayer service is Wednesday at 7.
+        We meet Sundays at 9:30, 11, and 6.<br />
+        Prayer service is Wednesday at 7.
       </p>
     </mat-card-content>
     <mat-card-actions>
@@ -52,8 +53,8 @@
       <mat-card-title>Find Us</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-        3400 Wilderness Trail <br/>
-        Louisville, KY 40299
+      3400 Wilderness Trail <br />
+      Louisville, KY 40299
     </mat-card-content>
     <mat-card-actions>
       <button mat-button>Contact Us</button>

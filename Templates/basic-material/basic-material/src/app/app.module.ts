@@ -1,12 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { 
   MatToolbarModule,
   MatMenuModule,
   MatIconModule,
-  MatButtonModule
+  MatButtonModule,
+  MatGridListModule
 } from "@angular/material";
 
 import { MatCardModule } from "@angular/material/card";
@@ -30,7 +32,10 @@ import { HomeComponent } from './home/home.component';
     MatCardModule,
     MatMenuModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatGridListModule,
+
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
