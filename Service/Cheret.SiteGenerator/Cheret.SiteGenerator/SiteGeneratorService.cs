@@ -11,10 +11,10 @@ namespace Cheret.SiteGenerator
 {
     public class SiteGeneratorService :IHostedService, IDisposable
     {
-        private readonly ILogger _logger;
+        private readonly ILogger<SiteGeneratorService> _logger;
         private readonly IOptions<ServiceConfig> _config;
 
-        public SiteGeneratorService(ILogger logger, IOptions<ServiceConfig> config)
+        public SiteGeneratorService(ILogger<SiteGeneratorService> logger, IOptions<ServiceConfig> config)
         {
             _logger = logger;
             _config = config;
