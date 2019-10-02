@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cheret.SiteGenerator", "Cheret.SiteGenerator\Cheret.SiteGenerator.csproj", "{8048213C-A455-4B17-8348-0AD27DD60CB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cheret.Model", "..\..\Cheret.Model\Cheret.Model\Cheret.Model.csproj", "{F17FFE15-F01C-4045-A2D2-E97149EC423E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cheret.Model", "..\..\Cheret.Model\Cheret.Model.csproj", "{F17FFE15-F01C-4045-A2D2-E97149EC423E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cheret.Data", "..\..\Cheret.Data\Cheret.Data\Cheret.Data.csproj", "{EF243FFF-DBE2-4A0B-9CD1-795BFB700D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cheret.Data", "..\..\Cheret.Data\Cheret.Data.csproj", "{EF243FFF-DBE2-4A0B-9CD1-795BFB700D28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
