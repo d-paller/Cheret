@@ -1,6 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
+using Service.Data;
 using Service.Data.Model;
 using Service.Data.Model.Interfaces;
 using System;
@@ -25,6 +26,7 @@ namespace Cheret.Service
 
                     services.Configure<CheretDatabaseSettings>(config.GetSection(nameof(CheretDatabaseSettings)));
 
+                    services.AddDal();
                     services.AddSingleton<ICheretDatabaseSettings>(x => x.GetRequiredService<IOptions<CheretDatabaseSettings>>().Value);
                     
                     services.AddHostedService<Worker>();
