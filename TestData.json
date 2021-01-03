@@ -4,65 +4,84 @@
         "url": "",
         "Data": {
             "churchDescription": "The church was constituted in April of 2011. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-            "About": {
+            "about": {
                 "address": "123 Main Street",
                 "state": "New York",
                 "city": "New York",
                 "zip": "01234",
                 "phone": "1234567890",
-                "email": "dpaller94@gmail.com",
-                "services": [
-                    {
-                        "day": "Sunday",
-                        "time": "9:00 am",
-                        "descriptor": "Sunday School"
-                    },
-                    {
-                        "day": "Sunday",
-                        "time": "11:00 am",
-                        "descriptor": "Morning Worship"
-                    },
-                    {
-                        "day": "Wednesday",
-                        "time": "7:00 pm",
-                        "descriptor": "Prayer Meeting"
-                    }
-                ],
-                "staff": [
-                    {
-                        "name": "John Doe",
-                        "role": "Pastor",
-                        "description": "John has been serving for 12 years as the lead pastor and main preacher.  He has a wife and 3 children.",
-                        "image": ""
-                    },
-                    {
-                        "name": "Josh Smith",
-                        "role": "Pastor",
-                        "description": "Josh has been serving as a part-time elder since 2012.  He 2 children and has been married to his wife for 8 years."
-                    },
-                    {
-                        "name": "Alex Brown",
-                        "role": "Deacon",
-                        "image":""
-                    },
-                    {
-                        "name": "Martin Scotts",
-                        "role": "Deacon",
-                        "image":""
-                    }
-                ],
-                "links": [
-                    {
-                        "facebook": null
-                    },
-                    {
-                        "instagram": null
-                    },
-                    {
-                        "sermonAudio": null
-                    }
-                ]
+                "email": "dpaller94@gmail.com"
             },
+            "staff": [
+                {
+                    "name": "John Doe",
+                    "role": "Pastor",
+                    "description": "John has been serving for 12 years as the lead pastor and main preacher.  He has a wife and 3 children.",
+                    "image": ""
+                },
+                {
+                    "name": "Josh Smith",
+                    "role": "Pastor",
+                    "description": "Josh has been serving as a part-time elder since 2012.  He 2 children and has been married to his wife for 8 years."
+                },
+                {
+                    "name": "Alex Brown",
+                    "role": "Deacon",
+                    "image": ""
+                },
+                {
+                    "name": "Martin Scotts",
+                    "role": "Deacon",
+                    "image": ""
+                }
+            ],
+            "services": { 
+                "serviceDescription": "All services are held at our church’s address.  The services at our church generally last between one and one and a half hours. The services are marked by a high view of God expressed in serious and joyful God-centered worship. We have simple services in which each aspect is rooted in scriptural commands. We engage in scripture reading, the congregational singing of psalms, hymns, and spiritual songs, prayer and the expository preaching of God’s word.",
+                "serviceTimes": [
+                {
+                    "day": "Sunday",
+                    "time": "9:00 am",
+                    "title": "Adult Sunday School",
+                    "description":"Ages 13 and up meet in the main sanctuary."
+                },
+                {
+                    "day": "Sunday",
+                    "time": "9:00 am",
+                    "title": "Childrens Sunday School",
+                    "description": "We have classes for children ages 5 - 12 and nursery for those younger. When you arrive, take a right at after entering the main entrance and all of the classrooms will be down that hall."
+                },
+                {
+                    "day": "Sunday",
+                    "time": "11:00 am",
+                    "title": "Morning Worship"
+                },
+                {
+                    "day": "Wednesday",
+                    "time": "7:00 pm",
+                    "title": "Prayer Meeting"
+                }
+            ]
+        },
+            "links": {
+                "facebook": null,
+                "instagram": null,
+                "sermonAudioSermonBrowser": null,
+                "sermonAudioWebcast": null
+            },
+            "beliefs": [
+                {
+                    "sectionHeading": "Scripture",
+                    "sectionText": "The Scriptures of the Old and New Testament were given by inspiration of God, and are the only sufficient, certain and authoritative rule of all saving knowledge, faith and obedience."
+                },
+                {
+                    "sectionHeading": "God",
+                    "sectionText": "There is but one God, the Maker, Preserver and Ruler of all things, having in and of himself, all perfections, and being infinite in them all; and to Him all creatures owe the highest love, reverence and obedience."
+                },
+                {
+                    "sectionHeading": "The Trinity",
+                    "sectionText": "God is revealed to us as Father, Son and Holy Spirit each with distinct personal attributes, but without division of nature, essence or being."
+                }
+            ],
             "notifications": [
                 {
                     "description": "There will be no services this week (the 12th) due to the snow storm.  Please tune into our live stream.",
